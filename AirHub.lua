@@ -1,11 +1,3 @@
---[[
-
-	AirHub by Exunys © CC0 1.0 Universal (2023)
-
-	https://github.com/Exunys
-
-]]
-
 --// Cache
 
 local loadstring, getgenv, setclipboard, tablefind, UserInputService = loadstring, getgenv, setclipboard, table.find, game:GetService("UserInputService")
@@ -22,8 +14,8 @@ getgenv().AirHub = {}
 
 --// Load Modules
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/AirHub/main/Modules/Aimbot.lua"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/AirHub/main/Modules/Wall%20Hack.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/niemiecc33/rivals/refs/heads/main/Modules/Aimbot.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/niemiecc33/rivals/refs/heads/main/Modules/Wall%20Hack.lua"))()
 
 --// Variables
 
@@ -40,7 +32,7 @@ Library.UnloadCallback = function()
 end
 
 local MainFrame = Library:CreateWindow({
-	Name = "AirHub",
+	Name = "RIVALS MODS",
 	Themeable = {
 		Image = "7059346386",
 		Info = "Made by Exunys\nPowered by Pepsi's UI Library",
