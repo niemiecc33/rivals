@@ -894,7 +894,7 @@ FunctionsSection:AddButton({
 FunctionsSection:AddButton({
 	Name = "Copy Script Page",
 	Callback = function()
-		setclipboard("https://github.com/Exunys/AirHub")
+		setclipboard("https://github.com/")
 	end
 })
 
@@ -909,12 +909,12 @@ do
 		end
 
 		Library.Unload()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/AirHub-V2/main/src/Main.lua"))()
+		loadstring(game:HttpGet(""))()
 	end
 
 	game.StarterGui:SetCore("SendNotification", {
-		Title = "🎆  AirHub V2  🎆",
-		Text = "Would you like to use the new AirHub V2 script?",
+		Title = "🎆  Hub V2  🎆",
+		Text = "Would you like to use the new Hub V2 script?",
 		Button1 = "Yes",
 		Button2 = "No",
 		Duration = 1 / 0,
